@@ -43,18 +43,18 @@
 	"outcomes": [
 		{
 			"arguments": {
-				"branchResult": "<KEY FOR PATH 1>"
+				"branchResult": "true"
 			},
 			"metaData": {
-				"label": "<LABEL FOR PATH 1>"
+				"label": "If true"
 			}
 		},
 		{
 			"arguments": {
-				"branchResult": "<KEY FOR PATH 2>"
+				"branchResult": "false"
 			},
 			"metaData": {
-				"label": "<LABEL FOR PATH 2>"
+				"label": "If false"
 			}
 		}
 	],
