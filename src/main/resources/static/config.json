@@ -1,8 +1,8 @@
 {
 	"key": "2ae72bc8-61c2-410a-b351-92faa788363c",
 	"metaData": {
-		"icon": "images/iconNicolas.jpg",
-		"iconSmall": "images/iconNicolas.jpg"
+		"icon": "images/nicIcon.jpg",
+		"iconSmall": "images/nicIcon.jpg"
 	},
 	"type": "RESTDECISION",
 	"lang": {
