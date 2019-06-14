@@ -19,18 +19,21 @@
 			"verb": "POST",
 			"body": "",
 			"useJwt": false
+//			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
 		},
 		"publish": {
 			"url": "https://custom-activity-demo.herokuapp.com/activity/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": false
+//			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
 		},
 		"validate": {
 			"url": "https://custom-activity-demo.herokuapp.com/activity/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": false
+//			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
 		}
 	},
 	"wizardSteps": [
@@ -73,6 +76,7 @@
 			"header": "",
 			"format": "json",
 			"useJwt": false,
+//			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>",
 			"timeout": 90000
 		}
 	},
