@@ -13,7 +13,7 @@
 	},
 	"workflowApiVersion": "1.1",
 	"configurationArguments": {
-		"applicationExtensionKey": "<YOUR APPLICATION EXTENSION KEY HERE>",
+		"applicationExtensionKey": "2ae72bc8-61c2-410a-b351-92faa788363c",
 		"save": {
 			"url": "https://custom-activity-demo.herokuapp.com/activity/save",
 			"verb": "POST",
@@ -77,7 +77,7 @@
 		}
 	},
 	"edit": {
-		"url": "https://custom-activity-demo.herokuapp.com/index.html",
+		"url": "https://custom-activity-demo.herokuapp.com",
 		"height": 200,
 		"width": 500
 	}
