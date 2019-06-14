@@ -13,24 +13,27 @@
 	},
 	"workflowApiVersion": "1.1",
 	"configurationArguments": {
-		"applicationExtensionKey": "2ae72bc8-61c2-410a-b351-92faa788363c",
+		"applicationExtensionKey": "<YOUR APPLICATION EXTENSION KEY HERE>",
 		"save": {
 			"url": "https://custom-activity-demo.herokuapp.com/activity/save",
 			"verb": "POST",
 			"body": "",
 			"useJwt": false
+//			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
 		},
 		"publish": {
 			"url": "https://custom-activity-demo.herokuapp.com/activity/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": false
+//			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
 		},
 		"validate": {
 			"url": "https://custom-activity-demo.herokuapp.com/activity/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": false
+//			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
 		}
 	},
 	"wizardSteps": [
@@ -73,11 +76,12 @@
 			"header": "",
 			"format": "json",
 			"useJwt": false,
+//			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>",
 			"timeout": 90000
 		}
 	},
 	"edit": {
-		"url": "https://custom-activity-demo.herokuapp.com",
+		"url": "https://custom-activity-demo.herokuapp.com/index.html",
 		"height": 200,
 		"width": 500
 	}
