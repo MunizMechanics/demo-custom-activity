@@ -29,7 +29,12 @@ public class ActivityController {
     }
 
     @RequestMapping(value = "/execute", method = RequestMethod.POST)
-    public ActivityResult execute (@RequestBody Map<String, Object> payload) {
-        return new ActivityResult("true");
+    public ActivityResult execute (@RequestBody ExecutePayload payload) {
+        for (Map<String, String> inArgument : payload.getInArguments()) {
+            if(inArgument.containsKey("status") && inArgument.get("status").equals("true")){
+                return new ActivityResult("true");
+            }
+        }
+        return new ActivityResult("false");
     }
 }
