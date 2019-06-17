@@ -7,8 +7,8 @@
 	"type": "RESTDECISION",
 	"lang": {
 		"en-US": {
-			"name": "Service Cloud Custom Split",
-			"description": "Custom Split activity that makes a decision based on data from Service Cloud"
+			"name": "Custom Split",
+			"description": "Custom Split activity that makes a decision based on data from a custom application"
 		}
 	},
 	"workflowApiVersion": "1.1",
